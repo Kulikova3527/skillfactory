@@ -24,7 +24,7 @@ function App() {
 
   useEffect(() => {
     const onResize = debounce(() => {
-      if (window.innerWidth < 1200) {
+      if (window.innerWidth < 1300) {
         setMain(<Mobile />);
       } else if (window.innerWidth > 1980) {
         setMain(<Large />);
