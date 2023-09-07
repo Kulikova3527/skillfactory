@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-nunito-sans: "Nunito Sans";
+  --font-yeseva-one: "Yeseva One";
+
+  /* font sizes */
+  --font-size-sm: 0.88rem;
+  --font-size-8xl: 1.69rem;
+  --font-size-smi: 0.81rem;
+  --font-size-lg: 1.13rem;
+  --font-size-2xs: 0.69rem;
+  --font-size-xl: 1.25rem;
+  --font-size-mid: 1.06rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-burlywood: #e3b873;
+  --color-gray-100: #181818;
+  --color-gray-200: #131313;
+  --color-gray-300: rgba(255, 255, 255, 0.15);
+  --color-gray-400: rgba(255, 255, 255, 0.5);
+  --color-gray-500: rgba(255, 255, 255, 0.3);
+  --color-darkslategray-100: #363636;
+  --color-darkslategray-200: rgba(54, 54, 54, 0.3);
+  --color-darkslategray-300: rgba(54, 54, 54, 0.5);
+  --color-darkgray: #959595;
+
+  /* Border radiuses */
+  --br-12xs: 1px;
+  --br-11xs: 2px;
+  --br-11xl: 30px;
+}
