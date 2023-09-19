@@ -7,6 +7,7 @@ import {
 import Home from "./pages/Home";
 import Mobile from "./pages/Mobile";
 import Large from "./pages/Large";
+import sandbox from "sandbox";
 import { useEffect, useState } from "react";
 import { debounce } from 'lodash';
 
@@ -45,6 +46,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={main} />
+      <sandbox />
     </Routes>
   );
 }
