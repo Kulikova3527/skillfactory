@@ -53,6 +53,7 @@ function sandbox() {
         const templateStr = `Ключ - ${key}, Значение - ${map[key]}`;
         console.log(templateStr);
     });
+
     return (
         <>
         </>
